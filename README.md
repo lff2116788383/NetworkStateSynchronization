@@ -1,0 +1,2 @@
+# NetworkStateSynchronization
+一个网络状态同步的案例，客户端使用Unity开发完成，服务端使用golang
