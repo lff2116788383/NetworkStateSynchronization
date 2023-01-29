@@ -1,0 +1,46 @@
+[error][2023-01-29 10:53:15.879379][main/main.go:54][main]Logger Init Succ
+[error][2023-01-29 10:53:15.879389][main/main.go:56][main]Load Config File:../config/config.json Succ
+[error][2023-01-29 10:53:15.880831][main/main.go:64][main]MysqlDB Init Succ,IP:10.0.4.7
+[error][2023-01-29 10:53:15.880856][main/main.go:75][main]Server Init Succ
+[error][2023-01-29 10:53:15.880989][server/server.go:52][Listen]Server start listen addr[0.0.0.0:1888]
+[error][2023-01-29 10:54:23.081977][server/server.go:61][Listen]New client connected addr[14.116.139.99:61807] lType[1]
+[error][2023-01-29 10:54:23.724759][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4002]
+[error][2023-01-29 10:54:23.724826][server/sockethandler.go:44][Send]send cmd:0x5002
+[error][2023-01-29 10:54:23.772129][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4001]
+[error][2023-01-29 10:54:23.772166][server/server.go:110][BroadcastUserEnterResponse]Receive Enter|socket desc:14.116.139.99:61807 pkg desc:172.20.103.13:58116,6,0,13,0
+[error][2023-01-29 10:54:23.772211][server/sockethandler.go:44][Send]send cmd:0x5001
+[error][2023-01-29 10:54:32.679183][server/processor.go:38][ReceiveIcPkg]br.Read 1 err[EOF]
+[error][2023-01-29 10:54:32.679275][server/sockethandler.go:41][Send]send failed err:write tcp 10.0.4.8:1888->14.116.139.99:61807: use of closed network connection
+[error][2023-01-29 10:54:32.679293][server/server.go:92][ProcessClose]ProcessClose  delete desc:172.20.103.13:58116 rest client count:0
+[error][2023-01-29 10:55:49.849512][server/server.go:61][Listen]New client connected addr[14.116.139.99:49341] lType[1]
+[error][2023-01-29 10:55:50.371418][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4002]
+[error][2023-01-29 10:55:50.371471][server/sockethandler.go:44][Send]send cmd:0x5002
+[error][2023-01-29 10:55:50.376580][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4001]
+[error][2023-01-29 10:55:50.376605][server/server.go:110][BroadcastUserEnterResponse]Receive Enter|socket desc:14.116.139.99:49341 pkg desc:172.20.103.13:58159,4,0,9,0
+[error][2023-01-29 10:55:50.376641][server/sockethandler.go:44][Send]send cmd:0x5001
+[error][2023-01-29 10:56:22.697295][server/server.go:61][Listen]New client connected addr[14.116.139.99:48622] lType[1]
+[error][2023-01-29 10:56:23.207120][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4002]
+[error][2023-01-29 10:56:23.207179][server/sockethandler.go:44][Send]send cmd:0x5002
+[error][2023-01-29 10:56:23.211498][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4001]
+[error][2023-01-29 10:56:23.211530][server/server.go:110][BroadcastUserEnterResponse]Receive Enter|socket desc:14.116.139.99:48622 pkg desc:172.20.103.13:58182,5,0,10,0
+[error][2023-01-29 10:56:23.211559][server/sockethandler.go:44][Send]send cmd:0x5001
+[error][2023-01-29 10:56:23.211569][server/sockethandler.go:44][Send]send cmd:0x5001
+[error][2023-01-29 10:56:27.014894][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4003]
+[error][2023-01-29 10:56:27.014961][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:27.014973][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:29.111957][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4008]
+[error][2023-01-29 10:56:29.569808][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4003]
+[error][2023-01-29 10:56:29.569871][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:29.569885][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:32.181348][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4003]
+[error][2023-01-29 10:56:32.181409][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:32.181428][server/sockethandler.go:44][Send]send cmd:0x5003
+[error][2023-01-29 10:56:32.397586][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4008]
+[error][2023-01-29 10:56:33.043469][server/sockethandler.go:54][ProcessPkg]recv cmd[0x4008]
+[error][2023-01-29 10:56:36.166836][server/processor.go:38][ReceiveIcPkg]br.Read 1 err[EOF]
+[error][2023-01-29 10:56:36.166928][server/sockethandler.go:41][Send]send failed err:write tcp 10.0.4.8:1888->14.116.139.99:49341: use of closed network connection
+[error][2023-01-29 10:56:36.166950][server/sockethandler.go:44][Send]send cmd:0x5004
+[error][2023-01-29 10:56:36.166957][server/server.go:92][ProcessClose]ProcessClose  delete desc:172.20.103.13:58159 rest client count:1
+[error][2023-01-29 10:56:37.538007][server/processor.go:38][ReceiveIcPkg]br.Read 1 err[EOF]
+[error][2023-01-29 10:56:37.538104][server/sockethandler.go:41][Send]send failed err:write tcp 10.0.4.8:1888->14.116.139.99:48622: use of closed network connection
+[error][2023-01-29 10:56:37.538135][server/server.go:92][ProcessClose]ProcessClose  delete desc:172.20.103.13:58182 rest client count:0
